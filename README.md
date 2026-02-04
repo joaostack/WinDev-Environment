@@ -19,7 +19,7 @@ Também defina o **Windows Terminal** como aplicativo de terminal padrão. Essa 
 
 Por questões práticas, recomendo ativar o '**sudo**' também (vai ajudar bastante, você não vai precisar reabrir um terminal como adminstrador).
 
-## Ambiente WSL e SandBox Windows
+## Ambiente WSL e Windows SandBox
 Este passo é opcional, mas caso queira ter um sistema linux dentro do seu windows, ative em:
 
 ```Settings -> System -> Optional features -> More Windows Features```
