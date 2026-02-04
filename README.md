@@ -13,8 +13,29 @@ Então, aqui, compartilho minha configuração do meu ambiente de desenvolviment
 ## Introdução
 Para um melhor suporte a softwares de terceiros, sem assinaturas (ou até seus softwares) e execução de scripts **PowerShell**, ative o modo desenvolvedor que pode ser encontrado em:
 
-```Settings -> Advanced -> Developer Mode```
+```Settings -> System -> Advanced -> Developer Mode```
 
 Também defina o **Windows Terminal** como aplicativo de terminal padrão. Essa opção pode ser localizada na mesma seção do modo desenvolvedor.
 
 Por questões práticas, recomendo ativar o '**sudo**' também (vai ajudar bastante, você não vai precisar reabrir um terminal como adminstrador).
+
+## Ambiente WSL e SandBox Windows
+Este passo é opcional, mas caso queira ter um sistema linux dentro do seu windows ative em:
+
+```Settings -> System -> Optional features -> More Windows Features```
+
+Ative a opção **Windows Subsystem for Linux** e **Windows Sandbox** (ambiente isolado, uso para testar softwares).
+
+Após isso reinicie seu computador e vá até o repositório:
+[WSL](https://github.com/microsoft/WSL/releases)
+
+Baixe e instale a versão mais recente (isso vai instalar a última versão do WSL).
+
+Para listar as distros disponíveis para instalar, rode o seguinte comando:
+```powershell
+wsl --list -o
+```
+E instale o sistema de sua preferência com:
+```powershell
+wsl --install <nome>
+```
