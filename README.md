@@ -1,2 +1,2 @@
 # WinDev-Environment
-Meu ambiente Windows de desenvolvimento DotNET/C#.
+Configuração do meu ambiente de desenvolvimento Windows DotNET/C#.
