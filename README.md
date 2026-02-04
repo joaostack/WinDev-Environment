@@ -35,7 +35,7 @@ Para listar as distros disponíveis para instalar, rode o seguinte comando:
 ```powershell
 wsl --list -o
 ```
-E instale o sistema de sua preferência com:
+Em seguida instale o sistema de sua preferência com:
 ```powershell
 wsl --install <nome>
 ```
