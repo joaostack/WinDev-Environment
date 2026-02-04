@@ -26,7 +26,7 @@ Este passo é opcional, mas caso queira ter um sistema linux dentro do seu windo
 
 Ative a opção **Windows Subsystem for Linux** e **Windows Sandbox** (ambiente isolado, uso para testar softwares).
 
-Após isso reinicie seu computador e vá até o repositório:
+Após isso reinicie seu computador e entre até o repositório do GitHub:
 [WSL](https://github.com/microsoft/WSL/releases)
 
 Baixe e instale a versão mais recente (isso vai instalar a última versão do WSL).
