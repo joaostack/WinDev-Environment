@@ -110,7 +110,7 @@ Crie um arquivo "**~/.config/starship.toml**" e cole o conteúdo deste:
 ## NeoVim
 O **NeoVim** (_NVim_) é um editor de código altamente personalizavel e versátil, ele é perfeito para quem busca performance e produtividade.
 
-A instalação do NeoVim pode ser feita diretamente pelo [site oficial](https://neovim.io/doc/install/) ou pelo **winget**.
+A instalação do **NeoVim** pode ser feita diretamente pelo [site oficial](https://neovim.io/doc/install/) ou pelo **winget**.
 
 ```powershell
 winget install Neovim.Neovim
