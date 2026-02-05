@@ -13,7 +13,7 @@
 6. [StarShip](#starship)
 
 ## Prefácio
-Últimamente usar o **Windows 11** têm-se tornado uma tarefa desafiadora para alguns quando trata-se de _otimização_, _estabilidade_ e _segurança_.
+Últimamente usar o **Windows 11** têm-se tornado uma tarefa desafiadora para alguns quando se trata de _otimização_, _estabilidade_ e _segurança_.
 
 De maneira definitiva, permaneci no **Windows** mesmo depois de ter passado os últimos 5 anos usando **Linux** como sistema operacional principal.
 
