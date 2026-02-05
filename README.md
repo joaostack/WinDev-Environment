@@ -10,6 +10,7 @@
 3. [Instalando a versão mais recente do PowerShell](#instalando-a-versão-mais-recente-do-powershell)
 4. [Configurando o Windows Terminal](#configurando-o-windows-terminal)
 5. [Fontes](#fontes)
+6. [StarShip](#starship)
 
 ## Prefácio
 Últimamente usar o **Windows 11** têm-se tornado uma tarefa desafiadora para alguns quando trata-se de _otimização_, _estabilidade_ e _segurança_.
