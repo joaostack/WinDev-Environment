@@ -32,9 +32,9 @@
     {
         "defaults": 
         {
-            "backgroundImage": "E:\\Wallpapers\\images\\gavrl-snowy-forest.jpg",
+            "backgroundImage": null,
             "backgroundImageOpacity": 0.4,
-            "colorScheme": "IBM 5153 (Copy)",
+            "colorScheme": "Psyche Lux",
             "cursorColor": "#C47E00",
             "cursorShape": "filledBox",
             "experimental.retroTerminalEffect": false,
@@ -51,7 +51,7 @@
         "list": 
         [
             {
-                "backgroundImage": "E:\\Wallpapers\\images\\gavrl-snowy-forest.jpg",
+                "backgroundImage": null,
                 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo",
                 "cursorShape": "filledBox",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -70,33 +70,39 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
             }
         ]
     },
     "schemes": 
     [
         {
-            "background": "#000000",
-            "black": "#000000",
-            "blue": "#0000AA",
-            "brightBlack": "#555555",
-            "brightBlue": "#5555FF",
-            "brightCyan": "#55FFFF",
-            "brightGreen": "#55FF55",
-            "brightPurple": "#FF55FF",
-            "brightRed": "#FF0000",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFF55",
-            "cursorColor": "#00AA00",
-            "cyan": "#00AAAA",
-            "foreground": "#FFFFFF",
-            "green": "#00AB00",
-            "name": "IBM 5153 (Copy)",
-            "purple": "#AA00AA",
-            "red": "#AA0000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#919191",
-            "yellow": "#C48000"
+            "background": "#0C0A12",
+			"black": "#161320",
+			"blue": "#4B6FDB",
+			"brightBlack": "#2A2540",
+			"brightBlue": "#6F92FF",
+			"brightCyan": "#8FE9F5",
+			"brightGreen": "#7FD2C7",
+			"brightPurple": "#B28CFF",
+			"brightRed": "#E06F87",
+			"brightWhite": "#FFFFFF",
+			"brightYellow": "#F2D48A",
+			"cursorColor": "#D6B56D",
+			"cyan": "#5FC7D8",
+			"foreground": "#E8E4F2",
+			"green": "#5FA89E",
+			"name": "Psyche Lux",
+			"purple": "#8F5EC7",
+			"red": "#B74C63",
+			"selectionBackground": "#26203A",
+			"white": "#D8D3E6",
+			"yellow": "#D6B56D"
         }
     ],
     "showTabsInTitlebar": false,
