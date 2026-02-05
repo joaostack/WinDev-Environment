@@ -85,3 +85,12 @@ No seguinte diretório você irá localizar a fonte que uso:
 [Consolas Nerd](https://github.com/joaostack/WinDev-Environment/tree/main/configuracoes/fontes)
 
 A fonte de sua preferência deve ser do tipo "nerd", pois o **neovim** e **starship** carregam alguns icones específicos para esse tipo de fonte.
+
+## StarShip
+O StarShip é um prompt escrito na linguagem Rust, altamente personalizável e rápido (como zsh).
+
+A instalação é simples, semelhante a instalação do PowerShell 7.
+
+```powershell
+winget install --id Starship.Starship
+```
