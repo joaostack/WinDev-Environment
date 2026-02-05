@@ -127,5 +127,5 @@ Antes de iniciar a instalação da distro, você precisa das seguintes dependên
 - 
 Uma vez com a instalação concluída, execute o seguinte comando:
 ```powershell
-git clone git@github.com:joaostack/WinDev-Environment.git "%LOCALAPPDATA%\nvim"
+git clone https://github.com/joaostack/stacknvim $env:LOCALAPPDATA\nvim
 ```
