@@ -91,9 +91,9 @@ A fonte de sua preferência deve ser do tipo "nerd", pois o **neovim** e **stars
 [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
 
 ## StarShip
-O StarShip é um prompt escrito na linguagem Rust, altamente personalizável e rápido (como zsh).
+O **StarShip** é um prompt escrito na linguagem **Rust**, altamente personalizável e rápido (como **ZSH**).
 
-A instalação é simples, semelhante a instalação do PowerShell 7.
+A instalação é simples, semelhante a instalação do **PowerShell 7**.
 
 ```powershell
 winget install --id Starship.Starship
@@ -117,7 +117,7 @@ winget install Neovim.Neovim
 ```
 
 Minha configuração **NeoVim** é baseada na distro [AstroNvim](https://astronvim.com/).
-Escolhi a AstroNvim em respeito a sua reputação quanto ao desempenho.
+Escolhi a **AstroNvim** em respeito a sua reputação quanto ao desempenho.
 
 Antes de iniciar a instalação da distro, você precisa das seguintes dependências:
 - [Python3+](http://python.org/)
