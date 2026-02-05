@@ -123,3 +123,9 @@ Antes de iniciar a instalação da distro, você precisa das seguintes dependên
 - [Python3+](http://python.org/)
 - [NodeJS + npm/npx](https://nodejs.org/en)
 - [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/)
+- [Git](https://git-scm.com/install/windows)
+- 
+Uma vez com a instalação concluída, execute o seguinte comando:
+```powershell
+git clone git@github.com:joaostack/WinDev-Environment.git "%LOCALAPPDATA%\nvim"
+```
