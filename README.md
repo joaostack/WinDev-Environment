@@ -108,7 +108,7 @@ Crie um arquivo "**~/.config/starship.toml**" e cole o conteúdo deste:
 [starship.toml](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/starship.toml)
 
 ## NeoVim
-O NeoVim (NVim) é um editor de código altamente personalizavel e versátil, ele é perfeito para quem busca performance e produtividade.
+O **NeoVim** (_NVim_) é um editor de código altamente personalizavel e versátil, ele é perfeito para quem busca performance e produtividade.
 
 A instalação do NeoVim pode ser feita diretamente pelo [site oficial](https://neovim.io/doc/install/) ou pelo **winget**.
 
@@ -116,7 +116,7 @@ A instalação do NeoVim pode ser feita diretamente pelo [site oficial](https://
 winget install Neovim.Neovim
 ```
 
-Minha configuração NVim é baseada na distro [AstroNvim](https://astronvim.com/).
+Minha configuração **NeoVim** é baseada na distro [AstroNvim](https://astronvim.com/).
 Escolhi a AstroNvim em respeito a sua reputação quanto ao desempenho.
 
 Antes de iniciar a instalação da distro, você precisa das seguintes dependências:
@@ -130,7 +130,7 @@ Uma vez que a instalação concluída, execute o seguinte comando:
 git clone https://github.com/joaostack/stacknvim $env:LOCALAPPDATA\nvim
 ```
 
-Inicie o NeoVim e aguarde o processo de instalação dos pacotes finalizar.
+Inicie o **NeoVim** e aguarde o processo de instalação dos pacotes finalizar.
 ```
 nvim
 ```
