@@ -87,6 +87,8 @@ No seguinte diretório você irá localizar a fonte que uso:
 
 A fonte de sua preferência deve ser do tipo "nerd", pois o **neovim** e **starship** carregam alguns icones específicos para esse tipo de fonte.
 
+[Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+
 ## StarShip
 O StarShip é um prompt escrito na linguagem Rust, altamente personalizável e rápido (como zsh).
 
