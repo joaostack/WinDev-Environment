@@ -66,7 +66,7 @@ Abra as configurações do windows terminal, logo em seguida, no canto inferior 
 
 ```Open JSON file```
 
-Então cole a configuração [settings.json](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/settings.json)
+Então cole a seguinte configuração [settings.json](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/settings.json)
 salve e reabra o terminal.
 
 Se quiser você pode definir como fundo este wallpaper:
