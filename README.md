@@ -3,6 +3,13 @@
 
 <p align="center">⚠️(NÃO CONCLUÍDO, ESPERE ATÉ A CONCLUSÃO).</p>
 
+# Table of Contents
+1. [Introdução: Configurações básicas](#introdução-configurações-básicas)
+2. [Containers: WSL e Windows SandBox](#containers-wsl-e-windows-sandbox)
+3. [Instalando a versão mais recente do PowerShell](#instalando-a-versão-mais-recente-do-powershell)
+4. [Configurando o Windows Terminal](#configurando-o-windows-terminal)
+5. [Fontes](#fontes)
+
 ## Prefácio
 Últimamente usar o **Windows 11** têm-se tornado uma tarefa desafiadora para alguns quando trata-se de _otimização_, _estabilidade_ e _segurança_.
 
@@ -21,7 +28,7 @@ Também defina o **Windows Terminal** como aplicativo de terminal padrão. Essa 
 
 Por questões práticas, recomendo ativar o '**sudo**' também (vai ajudar bastante, você não vai precisar reabrir um terminal como adminstrador).
 
-## Ambiente WSL e Windows SandBox
+## Containers: WSL e Windows SandBox
 Este passo é opcional, mas caso queira ter um sistema linux dentro do seu windows, ative em:
 
 ```Settings -> System -> Optional features -> More Windows Features```
