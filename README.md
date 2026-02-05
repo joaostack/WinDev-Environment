@@ -95,3 +95,11 @@ A instalação é simples, semelhante a instalação do PowerShell 7.
 ```powershell
 winget install --id Starship.Starship
 ```
+
+Após concluir a instalação, execute o seguinte comando:
+```powershell
+mkdir ~/.config
+```
+
+Crie um arquivo cujo nome deve ser "**starship.toml**" e cole o seguinte conteúdo:
+[starship.toml](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/starship.toml)
