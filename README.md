@@ -124,8 +124,8 @@ Antes de iniciar a instalação da distro, você precisa das seguintes dependên
 - [NodeJS + npm/npx](https://nodejs.org/en)
 - [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/)
 - [Git](https://git-scm.com/install/windows)
-- 
-Uma vez com a instalação concluída, execute o seguinte comando:
+
+Uma vez que a instalação concluída, execute o seguinte comando:
 ```powershell
 git clone https://github.com/joaostack/stacknvim $env:LOCALAPPDATA\nvim
 ```
