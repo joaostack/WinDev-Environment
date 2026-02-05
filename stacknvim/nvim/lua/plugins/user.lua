@@ -14,6 +14,7 @@ return {
     config = function() require("lsp_signature").setup() end,
   },
 
+  -- Configuração do servidor LSP C# Roslyn
   {
     "seblyng/roslyn.nvim",
     opts = {
@@ -94,3 +95,4 @@ return {
     end,
   },
 }
+
