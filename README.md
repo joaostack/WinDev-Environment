@@ -39,3 +39,11 @@ Em seguida instale o sistema de sua preferência com:
 ```powershell
 wsl --install <nome>
 ```
+
+## Instalando a versão mais recente do PowerShell
+As versões que estão pré-instaladas no windows são versões antigas (5.1) e com certos problemas de desempenho (além de não possuir o autocomplete kk).
+
+Para resolver este problema, abra o seu windows terminal e digite:
+```powershell
+winget install Microsoft.PowerShell
+```
