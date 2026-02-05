@@ -129,3 +129,8 @@ Uma vez que a instalação concluída, execute o seguinte comando:
 ```powershell
 git clone https://github.com/joaostack/stacknvim $env:LOCALAPPDATA\nvim
 ```
+
+Inicie o NeoVim e aguarde o processo de instalação dos pacotes finalizar.
+```
+nvim
+```
