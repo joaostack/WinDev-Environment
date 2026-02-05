@@ -1,7 +1,7 @@
 <p align="center"><img width="400" height="400" title="Logo gerada por IA" alt="logo" src="https://github.com/user-attachments/assets/8718fb9e-d522-4ff4-a4c1-a086b34511dd" /></p>
 <p align="center">Configuração do meu Windows voltado para o desenvolvimento DotNET/C#.</p>
 
-<p align="center">⚠️(NÃO CONCLUÍDO, ESPERE ATÉ A CONCLUSÃO).</p>
+<p align="center">⚠️(NÃO CONCLUÍDO,  AGUARDE A CONCLUSÃO).</p>
 
 ## Sumário
 0. [Prefácio](#prefácio)
