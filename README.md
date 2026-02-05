@@ -115,3 +115,11 @@ A instalação do NeoVim pode ser feita diretamente pelo [site oficial](https://
 ```powershell
 winget install Neovim.Neovim
 ```
+
+Minha configuração NVim é baseada na distro [AstroNvim](https://astronvim.com/).
+Escolhi a AstroNvim em respeito a sua reputação quanto ao desempenho.
+
+Antes de iniciar a instalação da distro, você precisa das seguintes dependências:
+- [Python3+](http://python.org/)
+- [NodeJS + npm/npx](https://nodejs.org/en)
+- [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/)
