@@ -107,6 +107,11 @@ mkdir ~/.config
 Crie um arquivo "**~/.config/starship.toml**" e cole o conteúdo deste:
 [starship.toml](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/starship.toml)
 
+Para defini-lo como prompt padrão, abra o arquivo da variável **$PROFILE** com seu editor de preferência (ex: **notepad $PROFILE**).
+
+Logo em seguida cole o conteúdo do arquivo:
+[Microsoft.PowerShell_profile.ps1](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/Microsoft.PowerShell_profile.ps1) salve e feche.
+
 ## NeoVim
 O **NeoVim** (_NVim_) é um editor de código altamente personalizavel e versátil, ele é perfeito para quem busca performance e produtividade.
 
