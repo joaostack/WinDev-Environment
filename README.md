@@ -1,7 +1,7 @@
 <p align="center"><img width="400" height="400" title="Logo gerada por IA" alt="logo" src="https://github.com/user-attachments/assets/8718fb9e-d522-4ff4-a4c1-a086b34511dd" /></p>
 <p align="center">Configuração do meu Windows voltado para o desenvolvimento DotNET/C#.</p>
 
-⚠️(NÃO CONCLUIDO, ESPERE ATÉ A CONCLUSÃO).
+<p align="center">⚠️(NÃO CONCLUIDO, ESPERE ATÉ A CONCLUSÃO).</p>
 
 ## Prefácio
 Últimamente usar o **Windows 11** têm-se tornado uma tarefa desafiadora para alguns quando trata-se de _otimização_, _estabilidade_ e _segurança_.
