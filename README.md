@@ -134,3 +134,8 @@ Inicie o **NeoVim** e aguarde o processo de instalação dos pacotes finalizar.
 ```
 nvim
 ```
+
+Instale o servidor **LSP Roslyn** usando o **Mason**:
+```
+MasonInstall roslyn
+```
