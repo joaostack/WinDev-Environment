@@ -71,3 +71,9 @@ salve e reabra o terminal.
 
 Se quiser você pode definir como fundo este wallpaper:
 [gavrl-snowy-forest.jpg](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/gavrl-snowy-forest.jpg)
+
+## Fontes
+Você pode encontrar a fonte que uso aqui:
+[Consolas Nerd](https://github.com/joaostack/WinDev-Environment/tree/main/configuracoes/fontes)
+
+A fonte de sua preferência deve ser do tipo "nerd" pois o neovim e starship carregam alguns icones específicos para esse tipo de fonte.
