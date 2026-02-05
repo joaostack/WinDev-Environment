@@ -1,4 +1,4 @@
-<img width="400" height="400" title="Logo gerada por IA" alt="logo" src="https://github.com/user-attachments/assets/8718fb9e-d522-4ff4-a4c1-a086b34511dd" />
+<img align="center" width="400" height="400" title="Logo gerada por IA" alt="logo" src="https://github.com/user-attachments/assets/8718fb9e-d522-4ff4-a4c1-a086b34511dd" />
 <p align="center">Configuração do meu Windows voltado para o desenvolvimento DotNET/C#.</p>
 
 ## Prefácio
