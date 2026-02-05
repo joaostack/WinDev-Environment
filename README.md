@@ -101,5 +101,5 @@ Após concluir a instalação, execute o seguinte comando:
 mkdir ~/.config
 ```
 
-Crie um arquivo cujo nome deve ser "**starship.toml**" e cole o seguinte conteúdo:
+Crie um arquivo "**~/.config/starship.toml**" e cole o seguinte conteúdo:
 [starship.toml](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/starship.toml)
