@@ -68,7 +68,7 @@ KeyMaps úteis:
 - **CTRL** + **Shift** + **T** - Nova Aba
 - **CTRL** + **Shift** + **W** - Fecha aba atual
 - **CTRL** + **ALT** + **1/2/3...** - Troca de aba
-- **CTRL** + **Shift** + **1/2/3...** - Abre um perfil diferente
+- **CTRL** + **Shift** + **1/2/3...** - Abre um perfil diferente (ex: cmd, windows powershell, wsl...)
 
 Abra as configurações do windows terminal, logo em seguida, no canto inferior esquerdo clique em:
 
