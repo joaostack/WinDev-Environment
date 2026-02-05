@@ -76,4 +76,4 @@ Se quiser você pode definir como fundo este wallpaper:
 No seguinte diretório você irá localizar a fonte que uso:
 [Consolas Nerd](https://github.com/joaostack/WinDev-Environment/tree/main/configuracoes/fontes)
 
-A fonte de sua preferência deve ser do tipo "nerd" pois o neovim e starship carregam alguns icones específicos para esse tipo de fonte.
+A fonte de sua preferência deve ser do tipo "nerd", pois o **neovim** e **starship** carregam alguns icones específicos para esse tipo de fonte.
