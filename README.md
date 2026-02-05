@@ -10,7 +10,7 @@ O porque de eu me manter no **Windows** foi quando comecei a ter o seguinte pens
 
 Então, aqui, compartilho minha configuração do meu ambiente de desenvolvimento **DotNET**/**C#** com base **NeoVim**, **PowerShell 7** + **Windows Terminal** + **StarShip**.
 
-## Introdução
+## Introdução: Configurações básicas
 Para um melhor suporte a softwares de terceiros, sem assinaturas (ou até seus softwares) e execução de scripts **PowerShell**, ative o modo desenvolvedor que pode ser encontrado em:
 
 ```Settings -> System -> Advanced -> Developer Mode```
