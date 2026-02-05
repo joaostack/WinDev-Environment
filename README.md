@@ -78,7 +78,10 @@ Abra as configurações do windows terminal, logo em seguida, no canto inferior 
 Então cole a seguinte configuração [settings.json](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/settings.json)
 salve e reabra o terminal.
 
-Se quiser você pode definir como fundo este wallpaper:
+Se quiser pode usar minha outra paleta de cores:
+[PsycheLux](https://github.com/joaostack/PsycheLux)
+
+Também, pode definir como fundo este wallpaper:
 [gavrl-snowy-forest.jpg](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/gavrl-snowy-forest.jpg)
 
 ## Fontes
