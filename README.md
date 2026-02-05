@@ -6,7 +6,7 @@
 
 De maneira definitiva, permaneci no **Windows** mesmo depois de ter passado os últimos 5 anos usando **Linux** como sistema operacional principal.
 
-O porque de eu me manter no **Windows** foi quando comecei a ter o seguinte pensamento: _Não faz o menor sentido passar horas configurando um ambiente Linux e ainda ter certa falta de suporte em certos softwares/games (sem generalização, amo **Linux**)._ Além de me ocorrer problemas de desempenho relacionado a minha **GPU**.
+O porque de eu me manter no **Windows** foi quando comecei a ter o seguinte pensamento: _Não faz o menor sentido passar horas configurando um ambiente Linux e ainda ter certa falta de suporte em certos softwares/games (sem generalização, amo **Linux**)._ Além de me ocorrer problemas de desempenho e suporte relacionado a minha **GPU**.
 
 Então, aqui, compartilho minha configuração do meu ambiente de desenvolvimento **DotNET**/**C#** com base **NeoVim**, **PowerShell 7** + **Windows Terminal** + **StarShip**.
 
