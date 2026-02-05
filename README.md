@@ -61,3 +61,10 @@ KeyMaps úteis:
 - **CTRL** + **Shift** + **W** - Fecha aba atual
 - **CTRL** + **ALT** + **1/2/3...** - Troca de aba
 - **CTRL** + **Shift** + **1/2/3...** - Abre um perfil diferente
+
+Abra as configurações do windows terminal, logo em seguida, no canto inferior esquerdo clique em:
+
+```Open JSON file```
+
+Então cole a configuração [settings.json](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/settings.json)
+salve e reabra o terminal.
