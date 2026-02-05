@@ -3,7 +3,8 @@
 
 <p align="center">⚠️(NÃO CONCLUÍDO, ESPERE ATÉ A CONCLUSÃO).</p>
 
-# Table of Contents
+## Sumário
+0. [Prefácio](#prefácio)
 1. [Introdução: Configurações básicas](#introdução-configurações-básicas)
 2. [Containers: WSL e Windows SandBox](#containers-wsl-e-windows-sandbox)
 3. [Instalando a versão mais recente do PowerShell](#instalando-a-versão-mais-recente-do-powershell)
