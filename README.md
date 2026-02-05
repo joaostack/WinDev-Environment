@@ -11,6 +11,7 @@
 4. [Configurando o Windows Terminal](#configurando-o-windows-terminal)
 5. [Fontes](#fontes)
 6. [StarShip](#starship)
+7. [NeoVim](#neovim)
 
 ## Prefácio
 Últimamente usar o **Windows 11** têm-se tornado uma tarefa desafiadora para alguns quando se trata de _otimização_, _estabilidade_ e _segurança_.
@@ -105,3 +106,12 @@ mkdir ~/.config
 
 Crie um arquivo "**~/.config/starship.toml**" e cole o conteúdo deste:
 [starship.toml](https://github.com/joaostack/WinDev-Environment/blob/main/configuracoes/starship.toml)
+
+## NeoVim
+O NeoVim (NVim) é um editor de código altamente personalizavel e versátil, ele é perfeito para quem busca performance e produtividade.
+
+A instalação do NeoVim pode ser feita diretamente pelo [site oficial](https://neovim.io/doc/install/) ou pelo **winget**.
+
+```powershell
+winget install Neovim.Neovim
+```
