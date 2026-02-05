@@ -54,7 +54,7 @@ Se por acaso o windows terminal não existir na sua máquina, instale atráves d
 
 (Ou pela Microsoft Store).
 
-KeyMaps utéis:
+KeyMaps úteis:
 - **CTRL** + **Shift** + **T** - Nova Aba
 - **CTRL** + **Shift** + **W** - Fecha aba atual
 - **CTRL** + **ALT** + **1/2/3...** - Troca de aba
