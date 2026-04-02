@@ -75,7 +75,3 @@ format = "[  $duration ](bg:bg4 fg:red bold)"
 [character]
 success_symbol = "[❯](bold neon)"
 error_symbol = "[❯](bold red)"
-
-[character.root]
-success_symbol = "[#](bold red)"
-error_symbol = "[#](bold red)"
