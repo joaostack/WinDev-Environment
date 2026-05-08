@@ -1,25 +1,9 @@
-"$schema" = "https://starship.rs/config-schema.json"
-
-command_timeout = 1500
-
-format = """
-[](fg:bg1)\
-$username\
-$directory\
-[](fg:bg1 bg:bg2)\
-$git_branch\
-$git_status\
-[](fg:bg2 bg:bg3)\
-$nodejs\
-$c\
-$dotnet\
-[](fg:bg3 bg:bg4)\
-$cmd_duration\
-[](fg:bg4)\
-\n$character
-"""
+"$schema" = 'https://starship.rs/config-schema.json'
 
 palette = "redteam"
+
+add_newline = false
+format = "$username$directory$git_branch$git_status$character"
 
 [palettes.redteam]
 bg1 = "#0a0a0a"
@@ -32,46 +16,33 @@ red = "#ff003c"
 neon = "#00ff9c"
 gray = "#666666"
 
+[character]
+success_symbol = "[❯](bold neon)"
+error_symbol = "[❯](bold red)"
+
 [username]
 show_always = false
-format = "[ ☠ $user ]($style)"
-style_user = "bg:bg1 fg:fg"
-style_root = "bg:bg1 fg:red bold"
+format = "[ ☠ $user]($style)"
+style_user = "fg:white bold"
+style_root = "fg:red bold"
 
 [directory]
-style = "bg:bg1 fg:neon bold"
+style = "fg:blue bold"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:bg2 fg:neon"
+style = "fg:neon"
 format = "[ $symbol $branch ]($style)"
 
 [git_status]
-style = "bg:bg2 fg:red bold"
+style = "fg:red bold"
 format = "[($all_status$ahead_behind)]($style)"
 
-[nodejs]
-symbol = " "
-style = "bg:bg3 fg:#5FA04E"
-format = "[$symbol]($style)"
+[package]
+disabled = true
 
-[c]
-symbol = " "
-style = "bg:bg3 fg:#6295CB"
-format = "[$symbol]($style)"
-
-[dotnet]
-symbol = " "
-style = "bg:bg3 fg:#1180C3"
-format = "[$symbol]($style)"
-
-[cmd_duration]
-min_time = 500
-format = "[  $duration ](bg:bg4 fg:red bold)"
-
-[character]
-success_symbol = "[❯](bold neon)"
-error_symbol = "[❯](bold red)"
+[line_break]
+disabled = true
