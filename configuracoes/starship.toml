@@ -1,48 +1,113 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-palette = "redteam"
+format = """
+$username\
+$hostname\
+$localip\
+$shlvl\
+$singularity\
+$kubernetes\
+$nats\
+$directory\
+$vcsh\
+$fossil_branch\
+$fossil_metrics\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$hg_branch\
+$hg_state\
+$pijul_channel\
+$docker_context\
+$package\
+$bun\
+$c\
+$cmake\
+$cobol\
+$cpp\
+$daml\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$fennel\
+$fortran\
+$gleam\
+$golang\
+$gradle\
+$haskell\
+$haxe\
+$helm\
+$java\
+$julia\
+$kotlin\
+$lua\
+$maven\
+$mojo\
+$nim\
+$nodejs\
+$ocaml\
+$odin\
+$opa\
+$perl\
+$php\
+$pulumi\
+$purescript\
+$python\
+$quarto\
+$raku\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$solidity\
+$swift\
+$terraform\
+$typst\
+$vlang\
+$vagrant\
+$xmake\
+$zig\
+$buf\
+$guix_shell\
+$nix_shell\
+$conda\
+$pixi\
+$meson\
+$spack\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$azure\
+$direnv\
+$env_var\
+$mise\
+$crystal\
+$custom\
+$sudo\
+$cmd_duration\
+$line_break\
+$jobs\
+$battery\
+$time\
+$status\
+$container\
+$netns\
+$os\
+$shell\
+$character"""
 
-add_newline = false
-format = "$username$directory$git_branch$git_status$character"
-
-[palettes.redteam]
-bg1 = "#0a0a0a"
-bg2 = "#111111"
-bg3 = "#1a1a1a"
-bg4 = "#220000"
-
-fg = "#eaeaea"
-red = "#ff003c"
-neon = "#00ff9c"
-gray = "#666666"
+add_newline = true
 
 [character]
-success_symbol = "[❯](bold neon)"
-error_symbol = "[❯](bold red)"
-
-[username]
-show_always = false
-format = "[ ☠ $user]($style)"
-style_user = "fg:white bold"
-style_root = "fg:red bold"
-
-[directory]
-style = "fg:blue bold"
-format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
-
-[git_branch]
-symbol = ""
-style = "fg:neon"
-format = "[ $symbol $branch ]($style)"
-
-[git_status]
-style = "fg:red bold"
-format = "[($all_status$ahead_behind)]($style)"
+success_symbol = '[λ](bold yellow)'
+error_symbol = '[λ](bold red)'
 
 [package]
-disabled = true
-
-[line_break]
 disabled = true
