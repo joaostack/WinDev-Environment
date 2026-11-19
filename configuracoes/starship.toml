@@ -1,224 +1,123 @@
-# Powerline style with Nord color palette
+"$schema" = 'https://starship.rs/config-schema.json'
+
+palette = 'hacker_neon'
+
+[palettes.hacker_neon]
+neon_cyan = '#05d9e8'
+neon_pink = '#ff2a6d'
+neon_green = '#5af78e'
+neon_yellow = '#f5d300'
+neon_purple = '#b967ff'
+dim = '#6c7086'
 
 format = """
-[](nord0)\
-$username\
-[@](bg:nord0 fg:nord4)\
-$hostname\
-$os\
-[](bg:nord1 fg:nord0)\
-$directory\
-[](bg:nord2 fg:nord1)\
-$git_branch\
-$git_status\
-$git_metrics\
-[](bg:nord3 fg:nord2)\
-$c\
-$elixir\
-$elm\
-$golang\
-$python\
-$gradle\
-$haskell\
-$java\
-$julia\
-$nodejs\
-$nim\
-$rust\
-$scala\
-[](fg:nord3)
-$status
-"""
+$os$username$hostname$shlvl$sudo\\
+$directory$git_branch$git_status\\
+$python$nodejs$rust$golang$docker_context\\
+$time$cmd_duration\\
+$character"""
 
-scan_timeout = 50
-command_timeout = 1000
-add_newline = false
-palette = 'nord'
-
-[palettes.nord]
-nord0 = '#2E3440'
-nord1 = '#3B4252'
-nord2 = '#434C5E'
-nord3 = '#4C566A'
-nord4 = '#D8DEE9'
-nord11 = '#BF616A'
-nord13 = '#EBCB8B'
-nord14 = '#A2BE8A'
-
-# username, host and OS
-[username]
-style_root = 'bg:nord0 fg:nord11'
-style_user = 'bg:nord0 fg:nord4'
-format = '[$user]($style)'
-show_always = true
-disabled = false
-
-[hostname]
-ssh_only = false
-ssh_symbol = ' '
-trim_at = '.'
-format = '[$hostname$ssh_symbol]($style)'
-style = 'bg:nord0 fg:nord4'
+# Alvo atual (opcional): export TARGET="10.10.10.5"
+[env_var.TARGET]
+format = "[󰓾 $env_value](bold fg:neon_pink) "
 disabled = false
 
 [os]
-format = '[ $symbol ]($style)'
-style = 'bg:nord0 fg:nord4'
 disabled = false
-# for symbols look at the end of the file
+style = "fg:neon_cyan"
+format = '[$symbol ]($style)'
 
-# directory
+[os.symbols]
+Linux = "󰌽"
+Kali = "󰣇"
+Ubuntu = "󰕈"
+Arch = "󰣇"
+Debian = "󰣚"
+
+[username]
+show_always = true
+style_user = "fg:neon_green"
+style_root = "bold fg:neon_pink"
+format = '[$user]($style)'
+
+[hostname]
+ssh_only = false
+style = "fg:neon_purple"
+format = '@[$hostname]($style) '
+
+[shlvl]
+disabled = false
+symbol = "↕"
+style = "fg:dim"
+format = '[$symbol$shlvl]($style) '
+
+[sudo]
+style = "fg:neon_yellow"
+format = '[󰌾 ]($style)'
+disabled = false
+
 [directory]
-truncation_length = 1
+style = "bold fg:neon_cyan"
+format = "[$path]($style) "
+truncation_length = 3
 truncate_to_repo = true
-format = '[ $path ]($style)[$read_only]($read_only_style)'
-style = 'bg:nord1 fg:nord4'
-disabled = false
-read_only = ' 󰌾 '
-read_only_style = 'bg:nord1 fg:nord11'
-truncation_symbol = ''
+truncation_symbol = "…/"
 
-[directory.substitutions]
-'Documents' = '󰈙'
-'Dokumente' = '󰈙'
-'Downloads' = ' '
-'Music' = ' '
-'Musik' = ' '
-'Pictures' = ' '
-'Bilder' = ' '
-'Projects' = ' '
-
-# git
 [git_branch]
-symbol = ''
-style = 'bg:nord2 fg:nord4'
-format = '[ $symbol $branch ]($style)'
+symbol = "󰊢"
+style = "fg:neon_purple"
+format = '[ $symbol $branch]($style)'
 
 [git_status]
-style = 'bg:nord2 fg:nord4'
-format = '[$all_status$ahead_behind ]($style)'
-
-[git_metrics]
-added_style = 'bg:nord2 fg:nord14'
-deleted_style = 'bg:nord2 fg:nord11'
-format = '[+$added ]($added_style)[-$deleted ]($deleted_style)'
-disabled = false
-
-# programming
-[c]
-symbol = ' '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
-
-[elixir]
-symbol = ' '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
-
-[elm]
-symbol = ' '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
-
-[golang]
-symbol = ' '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
+style = "fg:neon_yellow"
+format = '[$all_status$ahead_behind]($style) '
+conflicted = "!"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+untracked = "?"
+modified = "*"
+staged = "+"
+renamed = "»"
+deleted = "x"
 
 [python]
-symbol = ' '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) (\($virtualenv\)) ]($style)'
-
-[gradle]
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
-
-[haskell]
-symbol = ' '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
-
-[java]
-symbol = ' '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
-
-[julia]
-symbol = ' '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
+symbol = "󰌠"
+style = "fg:neon_green"
+format = '[ $symbol( $version)(\(#$virtualenv\))]($style)'
 
 [nodejs]
-symbol = ''
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
-
-[nim]
-symbol = '󰆥 '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
+symbol = "󰎙"
+style = "fg:neon_green"
+format = '[ $symbol( $version)]($style)'
 
 [rust]
-symbol = ''
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
+symbol = "󱘗"
+style = "fg:neon_green"
+format = '[ $symbol( $version)]($style)'
 
-[scala]
-symbol = ' '
-style = 'bg:nord3 fg:nord4'
-format = '[ $symbol ($version) ]($style)'
+[golang]
+symbol = "󰟓"
+style = "fg:neon_green"
+format = '[ $symbol( $version)]($style)'
 
-# status
-[status]
-format = '[ $symbol ]($style)'
-style = "bold"
-symbol = '[](fg:nord11)'
-success_symbol = '[](fg:nord14)'
-not_executable_symbol = '[🛇](fg:nord11)'
-not_found_symbol = '[󰍉](fg:nord11)'
-sigint_symbol = '[](fg:nord13)'
-signal_symbol = '[](fg:nord11)'
+[docker_context]
+symbol = "󰡨"
+style = "fg:neon_cyan"
+format = '[ $symbol( $context)]($style)'
+
+[time]
 disabled = false
+time_format = "%R"
+style = "fg:dim"
+format = '[󱑎 $time]($style) '
 
-# OS symbols
-[os.symbols]
-Alpaquita = ' '
-Alpine = ' '
-Amazon = ' '
-Android = ' '
-Arch = ' '
-Artix = ' '
-CentOS = ' '
-Debian = ' '
-DragonFly = ' '
-Emscripten = ' '
-EndeavourOS = ' '
-Fedora = ' '
-FreeBSD = ' '
-Garuda = '󰛓 '
-Gentoo = ' '
-HardenedBSD = '󰞌 '
-Illumos = '󰈸 '
-Linux = ' '
-Mabox = ' '
-Macos = ' '
-Manjaro = ' '
-Mariner = ' '
-MidnightBSD = ' '
-Mint = ' '
-NetBSD = ' '
-NixOS = ' '
-OpenBSD = '󰈺 '
-openSUSE = ' '
-OracleLinux = '󰌷 '
-Pop = ' '
-Raspbian = ' '
-Redhat = ' '
-RedHatEnterprise = ' '
-Redox = '󰀘 '
-Solus = '󰠳 '
-SUSE = ' '
-Ubuntu = ' '
-Unknown = ' '
-Windows = '󰍲 '
+[cmd_duration]
+min_time = 0
+style = "fg:neon_yellow"
+format = '[󱎫 $duration]($style) '
+
+[character]
+success_symbol = '[❯](bold fg:neon_green)'
+error_symbol = '[❯](bold fg:neon_pink)'
+vimcmd_symbol = '[❮](bold fg:neon_yellow)'
